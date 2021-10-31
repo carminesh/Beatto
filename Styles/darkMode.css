@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #eaeaea;
+  background-color: #171717;
   transition: all 0.8s ease;
 }
 
@@ -16,6 +16,7 @@ svg {
 }
 
 h1 {
+  color: #ededed;
   font-weight: 800;
   font-size: 5rem;
   padding: 0 1.2;
@@ -31,7 +32,7 @@ h1 {
   position: absolute;
   top: 4px;
   font-size: 10rem;
-  color: #ff2e63;
+  color: #da0037;
 }
 
 #title-kick {
@@ -52,13 +53,13 @@ h1 {
 }
 
 .mode-btn {
-  background-color: #171717;
+  background-color: #eaeaea;
   padding: 1rem 1.5rem;
   font-size: 1.5rem;
   margin-left: 100px;
   border-radius: 50px;
-  border: 2px solid #eaeaea;
-  color: #eaeaea;
+  border: 2px solid black;
+  color: black;
   transition: none;
 }
 
@@ -82,6 +83,7 @@ h1 {
 }
 
 select {
+  background-color: #ededed;
   width: 7rem;
   padding: 0.8rem;
   margin-left: 10px;
@@ -89,6 +91,7 @@ select {
 }
 
 .mute {
+  background-color: #ededed;
   padding: 1rem;
   border: none;
   border-radius: 2px;
@@ -97,8 +100,8 @@ select {
 }
 
 .mute:hover {
-  background-color: rgb(149, 149, 149);
-  color: white;
+  background-color: rgb(220, 220, 220);
+  color: black;
 }
 
 /* Strument row */
@@ -140,17 +143,20 @@ select {
   background-color: #344d80;
 }
 .hihat-pad {
-  background-color: #ff2e63;
+  background-color: #da0037;
 }
 
 .kick-pad.active {
   background-color: #17474a;
+  opacity: 0.8;
 }
 .snare-pad.active {
-  background-color: #252a34;
+  background-color: #1d2535;
+  opacity: 0.8;
 }
 .hihat-pad.active {
-  background-color: #7d2841;
+  background-color: #501527;
+  opacity: 0.8;
 }
 
 .play i {
@@ -159,7 +165,7 @@ select {
 
 .play {
   background-color: #757575;
-  color: #eaeaea;
+  color: white;
   border-radius: 5px;
   padding: 1.6rem 2.8rem;
   border: none;
@@ -176,7 +182,7 @@ select {
 
 .mute {
   background-color: #757575;
-  color: #eaeaea;
+  color: white;
 }
 
 .mute.active {
@@ -209,12 +215,13 @@ select {
 .tempo-slider {
   -webkit-appearance: none;
   height: 10px;
-  background-color: #757575;
+  color: #17474a;
   width: 30vw;
   border-radius: 15px;
 }
 
 p {
+  color: #ededed;
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 400;

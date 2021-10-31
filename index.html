@@ -10,19 +10,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Styles/style.css">
+    <link id="style-link" rel="stylesheet" href="./Styles/style.css">
 
 
-    <title>Beatmaker Project</title>
+    <title>BEATTO - Drumpad</title>
 </head>
 <body>
 
     <div class="container">
 
-        <h1 id="title">
-            BEATTO
-            <span>.</span>
-        </h1>
+        <div class="info-div">
+            <h1 id="title">
+                BEATTO
+                <span>.</span>
+            </h1>
+            <button class="mode-btn">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    
 
         <!--Kick section-->
         <div class="kick-track">
@@ -100,8 +106,8 @@
 
 
         <div class="general-controller">
-            <button class="play"> PLAY
-                <!-- <i class="fas fa-play"></i> -->
+            <button class="play">
+                <i class="fas fa-play"></i>
             </button>
     
             <div class="tempo">
@@ -118,5 +124,6 @@
     <audio class="hihat-sound" src="./Sounds/hihat-808.wav"></audio>    
 
     <script src="Scripts/app.js"></script>
+    <script src="Scripts/modeSwitch.js"></script>
 </body>
 </html>

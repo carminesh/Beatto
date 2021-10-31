@@ -65,10 +65,9 @@ class DrumKit {
     //Update play button
     updateBtn() {   
         if(!this.isPlaying) {
-            this.playBtn.innerHTML = "PLAY";
-
+            this.playBtn.innerHTML = '<i class="fas fa-play"></i>';
         } else {
-            this.playBtn.innerHTML = "STOP";
+            this.playBtn.innerHTML = '<i class="fas fa-stop"></i>';
         }
     }
 
