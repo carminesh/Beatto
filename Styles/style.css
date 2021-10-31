@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+i,
+svg {
+  pointer-events: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 5rem;
+  padding: 0 1.2;
+}
+
+#title {
+  font-size: 7rem;
+  font-weight: 600;
+  margin: 3rem 0;
+}
+
+#title span {
+  position: absolute;
+  top: 4px;
+  font-size: 10rem;
+  color: #ff2e63;
+}
+
+#title-kick {
+  margin-right: 59px;
+}
+#title-snare {
+  margin-right: 53px;
+}
+#title-hihat {
+  margin-right: 43.6px;
+}
+
+.container {
+  min-height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.control-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.control-section {
+  flex: 1;
+}
+
+select {
+  width: 7rem;
+  padding: 0.8rem;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.mute {
+  padding: 1rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.mute:hover {
+  background-color: rgb(149, 149, 149);
+  color: white;
+}
+
+/* Strument row */
+
+.kick-track,
+.snare-track,
+.hihat-track {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.kick,
+.snare,
+.hihat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Pad section */
+
+.pad {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 4px;
+  margin: 0px 1rem;
+  transition: all 0.5s ease;
+}
+
+.kick-pad {
+  background-color: #80ced2;
+}
+.snare-pad {
+  background-color: #344d80;
+}
+.hihat-pad {
+  background-color: #ff2e63;
+}
+
+.kick-pad.active {
+  background-color: #17474a;
+}
+.snare-pad.active {
+  background-color: #252a34;
+}
+.hihat-pad.active {
+  background-color: #7d2841;
+}
+
+.play {
+  background-color: #757575;
+  color: white;
+  border-radius: 5px;
+  padding: 1.6rem 2.8rem;
+  border: none;
+  margin-top: 50px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  width: 160px;
+  transition: all 0.5s ease;
+}
+
+.play:hover {
+  opacity: 0.5w;
+}
+
+.mute {
+  background-color: #757575;
+  color: white;
+}
+
+.mute.active {
+  opacity: 0.4;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.general-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.tempo {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tempo-slider {
+  width: 30vw;
+}
+
+p {
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 350;
+}
