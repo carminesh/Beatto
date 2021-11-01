@@ -147,16 +147,16 @@ select {
 }
 
 .kick-pad.active {
-  background-color: #17474a;
-  opacity: 0.8;
+  background-color: #0d3437;
+  border: 2.5px solid #eaeaea;
 }
 .snare-pad.active {
-  background-color: #1d2535;
-  opacity: 0.8;
+  background-color: #182339;
+  border: 2.5px solid #eaeaea;
 }
 .hihat-pad.active {
-  background-color: #501527;
-  opacity: 0.8;
+  background-color: #520e22;
+  border: 2.5px solid #eaeaea;
 }
 
 .play i {
@@ -215,7 +215,7 @@ select {
 .tempo-slider {
   -webkit-appearance: none;
   height: 10px;
-  color: #17474a;
+  background-color: #eaeaea;
   width: 30vw;
   border-radius: 15px;
 }

@@ -137,20 +137,20 @@ select {
   background-color: #80ced2;
 }
 .snare-pad {
-  background-color: #344d80;
+  background-color: #4c6fb6;
 }
 .hihat-pad {
-  background-color: #ff2e63;
+  background-color: #dc1245;
 }
 
 .kick-pad.active {
   background-color: #17474a;
 }
 .snare-pad.active {
-  background-color: #252a34;
+  background-color: #081a45;
 }
 .hihat-pad.active {
-  background-color: #7d2841;
+  background-color: #680023;
 }
 
 .play i {
